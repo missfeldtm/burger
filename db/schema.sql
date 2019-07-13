@@ -9,6 +9,6 @@ CREATE TABLE products (
   id INT NOT NULL AUTO_INCREMENT,
   burger_name VARCHAR(45) NULL,
   devoured BOOLEAN,
-
+  date TIMESTAMP,
   PRIMARY KEY (id)
 );
